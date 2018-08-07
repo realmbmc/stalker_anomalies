@@ -58,8 +58,6 @@ if(isServer) then {
 				} else {
 					[_trg, _x] spawn {
 						params["_trg","_x"];
-						[_x, getpos _trg, 2, 2] remoteExec ["anomaly_fnc_suckToLocation",_x];
-						sleep 2;
 						_x setDamage 1;
 					};
 				};
@@ -109,7 +107,6 @@ if(hasInterface) then {
 	_plr = ([] call CBA_fnc_currentUnit);
 	_in = (_plr in _list );
 	if( _in ) then {
-		[_plr, getpos _trg, 2, 2] spawn anomaly_fnc_suckToLocation;
 		addCamShake [15, 3, 25];
 	};
 	// if( vehicle _plr in _list && { (vehicle _plr) isKindOf "landvehicle" && {(driver vehicle _plr) == _plr}}) then {
