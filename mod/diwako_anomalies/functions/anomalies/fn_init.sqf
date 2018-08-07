@@ -13,7 +13,6 @@
 	diwako 2017-12-11
 */
 
-if(missionNamespace getVariable ["anomaly_var_init",false]) exitWith {};
 missionNamespace setVariable ["anomaly_var_init",true];
 
 if(isServer && isMultiplayer) then {
@@ -33,7 +32,7 @@ if(isServer && isMultiplayer) then {
 
 if(!hasInterface) exitWith {};
 
-/*
+
 //this is now handled by cba settings:
 // if true, displays a marker were anomaly has been placed.
 ANOMALY_DEBUG = false;
@@ -43,12 +42,11 @@ ANOMALY_IDLE_DISTANCE = 350;
 // distance to nearest anomaly detector starts to beep
 ANOMALY_DETECTION_RANGE = 20;
 // required item to use detector, leave empty for no item
-ANOMALY_DETECTOR_ITEM = "";
+ANOMALY_DETECTOR_ITEM = "Item_dosimetr";
 // enter item google classes which function as gasmasks
-ANOMALY_GAS_MASKS = ["GP5_RaspiratorPS","GP5Filter_RaspiratorPS","GP7_RaspiratorPS","GP21_GasmaskPS","SE_S10","G_Respirator_white_F","MASK_M40_OD","MASK_M40","MASK_M50"];
-*/
+ANOMALY_GAS_MASKS = ["armst_BioGasMaskG25","armst_seva_visor"];
 // required item to be able to throw bolts, leave empty for no item
-ANOMALY_BOLT_ITEM = "";
+ANOMALY_BOLT_ITEM = "bolts_infinite_mag";
 
 /*== DO NOT EDIT Below unless you know what you are doing! ==*/
 ACTIVE_ANOMALIES = [];

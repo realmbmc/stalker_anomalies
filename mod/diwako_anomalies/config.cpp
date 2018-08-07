@@ -26,11 +26,6 @@
     name = #ITEM; \
     count = COUNT; \
 }
-class Extended_PreInit_EventHandlers {
-	class anomaly_settings {
-		init = "call anomaly_fnc_registerSettings";
-	};
-};
 
 #include "cfgFactionClasses.hpp"
 #include "cfgFunctions.hpp"

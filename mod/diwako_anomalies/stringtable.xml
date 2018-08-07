@@ -203,5 +203,29 @@
             <German>Anomalien Detektor ausschalten</German>
             <Russian>Выключить детектор аномалий</Russian>
         </Key>
+        <Key ID="STR_bolts_infinite_name">
+            <Original>Bag of bolts</Original>
+            <English>Bag of bolts</English>
+            <!-- <German></German> -->
+            <Russian>Мешочек с болтами</Russian>
+        </Key>      
+		<Key ID="STR_bolts_infinite_descr">
+            <Original>Just an ordinary run-of-the-mill bag of bolts</Original>
+            <English>Just an ordinary run-of-the-mill bag of bolts</English>
+            <!-- <German></German> -->
+            <Russian>Вместимость: 20шт</Russian>
+        </Key>
+        <Key ID="STR_bolts_one_name">
+            <Original>Bolt</Original>
+            <English>Bolt</English>
+            <!-- <German></German> -->
+            <Russian>Болт</Russian>
+        </Key>
+        <Key ID="STR_bolts_one_descr">
+            <Original>Just an ordinary run-of-the-mill bolt</Original>
+            <English>Just an ordinary run-of-the-mill bolt</English>
+            <!-- <German></German> -->
+            <Russian>Обычный ржавый болт</Russian>
+        </Key>	
 	</Package>
 </Project>
