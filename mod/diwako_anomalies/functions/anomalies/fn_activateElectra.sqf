@@ -121,7 +121,6 @@ if(hasInterface) then {
 			// [_veh, ["engine", (_curDam + 0.25)]] remoteExec ["setHit", _veh];
 		// };
 	// };
-	sleep 2;
 	if( _in ) then {
 		if(!isNil "ace_medical_fnc_addDamageToUnit") then {
 			// Ace medical is enabled
