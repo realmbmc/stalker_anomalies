@@ -5,7 +5,7 @@ class cfgMagazines {
 		ammo = "bolt_ammo";
 		scope = 2;
 		count = 20;
-		mass = 30;
+		mass = 20;
 		descriptionShort = "$STR_bolts_infinite_descr";
 		displayName = "$STR_bolts_infinite_name";
 		displayNameShort = "$STR_bolts_infinite_name";

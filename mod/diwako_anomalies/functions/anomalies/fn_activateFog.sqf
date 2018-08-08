@@ -21,7 +21,7 @@ if(_trg getVariable ["anomaly_type",""] != "fog") exitWith {};
 
 {
 	if((_x isKindOf "Man") && {local _x}) then {
-		if(!(toUpper(goggles _x) in ANOMALY_GAS_MASKS)) then {
+		if(!(goggles _x) in ANOMALY_GAS_MASKS) then {
 			if(isPlayer _x) then {
 				[] spawn {
 					private _effect = [4];

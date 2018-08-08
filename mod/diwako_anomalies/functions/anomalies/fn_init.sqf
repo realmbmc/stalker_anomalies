@@ -45,6 +45,7 @@ ANOMALY_DETECTION_RANGE = 20;
 ANOMALY_DETECTOR_ITEM = "Item_dosimetr";
 // enter item google classes which function as gasmasks
 ANOMALY_GAS_MASKS = ["armst_BioGasMaskG25","armst_seva_visor"];
+publicVariableServer "ANOMALY_GAS_MASKS"; //MP Support
 // required item to be able to throw bolts, leave empty for no item
 ANOMALY_BOLT_ITEM = "bolts_infinite_mag";
 
