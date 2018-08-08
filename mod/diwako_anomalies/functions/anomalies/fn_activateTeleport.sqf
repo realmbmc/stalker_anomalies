@@ -82,8 +82,6 @@ _trg setVariable ["anomaly_cooldown", true, true];
 		};
 	};
 } forEach _men;
-
-sleep 4;
-
+sleep 3;
 _trg setVariable ["anomaly_cooldown", false, true];
 _exit setVariable ["anomaly_cooldown", false, true];

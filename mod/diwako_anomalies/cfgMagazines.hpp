@@ -18,9 +18,9 @@ class cfgMagazines {
 	class bolts_one_mag : bolts_infinite_mag {
 		scope = 2;
 		mass = 1;
-		displayName = "$STR_bolts_one_name";
-		displayNameShort = "$STR_bolts_one_name";
-		descriptionShort = "$STR_bolts_one_descr";
+		displayName = "$STR_anomaly_bolt";
+		displayNameShort = "$STR_anomaly_bolt";
+		descriptionShort = "$STR_anomaly_bolt_desc";
 		picture = "\diwako_anomalies\data\ui\bolts.paa";
 		model = "\diwako_anomalies\data\models\bolt.p3d";
 		count = 1;

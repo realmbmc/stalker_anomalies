@@ -21,13 +21,19 @@
             <Original>Stalker anomalies</Original>
             <English>Stalker anomalies</English>
             <German>Stalker Anomalien</German>
-            <!-- <Russian></Russian> -->
+            <Russian>Аномалии</Russian>
         </Key>
         <Key ID="STR_anomaly_detector">
             <Original>Anomaly Detector</Original>
             <English>Anomaly Detector</English>
             <German>Anomalie Detektor</German>
             <Russian>Детектор Аномалий</Russian>
+        </Key>
+        <Key ID="STR_anomaly_detector_desc">
+            <Original>Enables detection of anomalies</Original>
+            <English>Enables detection of anomalies</English>
+            <German>Ermöglicht es Anomlien aufzuspüren</German>
+            <Russian>Позволяет обнаружить аномалии в радиусе действия</Russian>
         </Key>
         <Key ID="STR_anomaly_springboard">
             <Original>Springboard</Original>
@@ -39,7 +45,7 @@
             <Original>Spawn a springboard anomaly at module location</Original>
             <English>Spawn a springboard anomaly at module location</English>
             <German>Estellt eine Anomalie des Typs Springboard an der Stelle des Moduls</German>
-            <Russian>Создать аномалию Трамплин на позиции модуля</Russian>
+            <Russian>Создать аномалию "Трамплин" на позиции модуля</Russian>
         </Key>
         <Key ID="STR_anomaly_electra">
             <Original>Electra</Original>
@@ -215,17 +221,29 @@
             <!-- <German></German> -->
             <Russian>Вместимость: 20шт</Russian>
         </Key>
-        <Key ID="STR_bolts_one_name">
+        <Key ID="STR_anomaly_bolt">
             <Original>Bolt</Original>
             <English>Bolt</English>
-            <!-- <German></German> -->
+            <German>Schraube</German>
             <Russian>Болт</Russian>
         </Key>
-        <Key ID="STR_bolts_one_descr">
+        <Key ID="STR_anomaly_bolt_desc">
             <Original>Just an ordinary run-of-the-mill bolt</Original>
             <English>Just an ordinary run-of-the-mill bolt</English>
-            <!-- <German></German> -->
+            <German>Eine gewöhnliche Schraube</German>
             <Russian>Обычный ржавый болт</Russian>
+        </Key>
+        <Key ID="STR_Detector_turned_on">
+            <Original>Detector has been turned on</Original>
+            <English>Detector has been turned on</English>
+            <!-- <German></German> -->
+            <Russian>Детектор Аномалий был включён</Russian>
+        </Key>
+        <Key ID="STR_Detector_turned_off">
+            <Original>Detector has been turned off</Original>
+            <English>Detector has been turned off</English>
+            <!-- <German></German> -->
+            <Russian>Детектор Аномалий был выключен</Russian>
         </Key>	
 	</Package>
 </Project>
