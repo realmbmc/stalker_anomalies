@@ -6,9 +6,9 @@ class cfgMagazines {
 		scope = 2;
 		count = 20;
 		mass = 20;
-		descriptionShort = "$STR_bolts_infinite_descr";
-		displayName = "$STR_bolts_infinite_name";
-		displayNameShort = "$STR_bolts_infinite_name";
+		descriptionShort = "$STR_anomaly_bolt_bag_desc";
+		displayName = "$STR_anomaly_bolt_bag";
+		displayNameShort = "$STR_anomaly_bolt_bag";
 		model = "\A3\weapons_F\ammo\mag_univ.p3d";
 		/*picture = "\diwako_anomalies\data\ui\bolts.paa";*/
 		picture = "\A3\Weapons_f\data\UI\gear_satchel_CA.paa";

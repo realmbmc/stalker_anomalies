@@ -27,7 +27,7 @@
             <Original>Anomaly Detector</Original>
             <English>Anomaly Detector</English>
             <German>Anomalie Detektor</German>
-            <Russian>Детектор Аномалий</Russian>
+            <Russian>Детектор аномалий</Russian>
         </Key>
         <Key ID="STR_anomaly_detector_desc">
             <Original>Enables detection of anomalies</Original>
@@ -93,7 +93,7 @@
             <Original>Teleporters need the same ID to work together. It is only allowed to have the same ID twice!</Original>
             <English>Teleporters need the same ID to work together. It is only allowed to have the same ID twice!</English>
             <German>Teleporter Anomalien brauchen die selbe ID so dass diese zusammen arbeiten können. Man kann nicht die selbe ID mehr als zwei mal nutzen!</German>
-			<Russian>Телепортам требуются одинаковые ID для синхронизации. Можно использовать один и тот же ID только в 2-х аномалиях!</Russian>
+            <Russian>Телепортам требуются одинаковые ID для синхронизации. Можно использовать один и тот же ID только в 2-х аномалиях!</Russian>
         </Key>
         <Key ID="STR_anomaly_teleport_desc">
             <Original>Spawn a teleport anomaly at module location</Original>
@@ -165,7 +165,7 @@
             <Original>Fog field</Original>
             <English>Fog field</English>
             <German>Nebel Feld</German>
-            <Russian>Туманное Поле</Russian>
+            <Russian>Туманное поле</Russian>
         </Key>
         <Key ID="STR_anomaly_fog_desc">
             <Original>Spawn a fog anomaly field at module location. Set area size A and B the same! Only size A will be used to set the field size!</Original>
@@ -209,16 +209,16 @@
             <German>Anomalien Detektor ausschalten</German>
             <Russian>Выкл. Детектор Аномалий</Russian>
         </Key>
-        <Key ID="STR_bolts_infinite_name">
+        <Key ID="STR_anomaly_bolt_bag">
             <Original>Bag of bolts</Original>
             <English>Bag of bolts</English>
-            <!-- <German></German> -->
+            <German>Sack voller Schrauben</German>
             <Russian>Мешочек с болтами</Russian>
-        </Key>      
-		<Key ID="STR_bolts_infinite_descr">
+        </Key>
+        <Key ID="STR_anomaly_bolt_bag_desc">
             <Original>Just an ordinary run-of-the-mill bag of bolts</Original>
             <English>Just an ordinary run-of-the-mill bag of bolts</English>
-            <!-- <German></German> -->
+            <German>Ein gewöhnlicher Sack voller Schrauben</German>
             <Russian>Вместимость: 20шт</Russian>
         </Key>
         <Key ID="STR_anomaly_bolt">
